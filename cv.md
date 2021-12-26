@@ -2,6 +2,7 @@
 ## Fullname: 
 
     Kuchutkov Alexandr Nikolaevich
+
 **********
 ## Contacts: 
     * discord: @axekash
@@ -51,6 +52,7 @@
 ## My Languages:
 
     * Russian - native speaker;
+    * Belarussian - native speaker;
     * English - A1 (Beginner) (A2 (Elementary)).
 ***********
 
