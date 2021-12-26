@@ -11,11 +11,8 @@
 ***********
 **About me:**
     I am 30 year old, I work as civil engeneer (estimate engineer), but I don't see further development prospects in this direction.
-    
     I like constant development, I like writing code, exploring new possibilities in front-end development.
-    
     My stengths are perseverance, problem sloving, fast learning.
-    
     I want to gain knowledge and skills for employment in a company, development in it, and launching my projects.
 ***********
 **My skills:**
