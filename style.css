@@ -1,3 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.navigation {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+
+}
 .header__avatar {
     width: 600px;
     height: 300px;
