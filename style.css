@@ -2,25 +2,60 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-
-
-.navigation {
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 15px;
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.navigation ul {
-    margin: 0;
-    padding: 0;
+.nav {
+    min-height: 50px;
+    background-color: rgba(207, 161, 123, 0.4);
+}
+
+.nav-list {
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
     list-style-type: none;
-    
+}
+.nav-item {
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-item a {
+    text-decoration: none;
+}
+
+
+
+.name-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.name-avatar img {
+    display: block;
+    width: 300px;
 
 }
-.header__avatar {
-    width: 600px;
-    height: 300px;
-    background-color: blueviolet;
+.name-fullname {
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
 }
+
+.title {
+    text-align: center;
+
+}
+.main p{
+    margin: 10px 0;
+}
+
