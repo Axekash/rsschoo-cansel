@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
@@ -25,98 +25,124 @@
                 </ul>
             </nav>
         </div>
-
     </header>
 
     <main class="main">
-        <div class="container">
-            <section class="name-wrapper">
-                <div class="name-avatar">
-                    <img src="assets/img/avatar.jpg" alt="avatar">
+        <section class="name-wrapper">
+            <div class="container">
+                <div class="name-wrapper-wrapper">
+                    <div class="name-avatar">
+                        <img src="assets/img/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="name-fullname">
+                        <h1 id="name">Kuchutkov Alexandr</h1>
+                        <hr>
+                        <p>Junior Front-end Developer</p>
+                    </div>
                 </div>
-                <div class="name-fullname">
-                    <h1 id="name">Kuchutkov Alexandr</h1>
-                    <hr>
-                    <p>Junior Front-end Developer</p>
-                </div>
-            </section>
+
+            </div>
+        </section>
+
             <section class="about-me">
-                <div class="title" id="about-me">
-                    <h2>About me</h2>
-                </div>
-                <div class="main">
-                    <p>I am 30 year old, I work as civil engeneer (estimate engineer), but I don't see further development prospects in this direction.</p>
-                    <p>I like constant development, I like writing code, exploring new possibilities in front-end development.</p> 
-                    <p>My stengths are perseverance, problem sloving, fast learning.</p> 
-                    <p>I want to gain knowledge and skills for employment in a company, development in it, and launching my projects.</p> 
+                <div class="container">
+                    <div class="about-me-wrapper">
+                        <div class="title" id="about-me">
+                            <h2>About me</h2>
+                        </div>
+                        <div class="main-descr">
+                            <p>I am 30 year old, I work as civil engeneer (estimate engineer), but I don't see further development prospects in this direction.</p>
+                            <p>I like constant development, I like writing code, exploring new possibilities in front-end development.</p> 
+                            <p>My stengths are perseverance, problem sloving, fast learning.</p> 
+                            <p>I want to gain knowledge and skills for employment in a company, development in it, and launching my projects.</p> 
+                        </div>
+                    </div>
+
                 </div>
             </section>
+
             <section class="my-skills">
-                <div class="title" id="skills">
-                    <h2>My Skills</h2>
+                <div class="container">
+                    <div class="title" id="skills">
+                        <h2>My Skills</h2>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            HTML
+                        </li>
+                        <li class="skill-item">CSS (Framework Bootstrap, Preprocessor SASS/SCSS, BEM Metodology)</li>
+                        <li class="skill-item">Git Control Version (remote service GitHub)</li>
+                        <li class="skill-item">Gulp</li>
+                        <li class="skill-item">Editors: VSCode</li>
+                        <li class="skill-item">Windows OS.</li>
+                        <li class="skill-item">Figma</li>
+                        <li class="skill-item">Photoshop</li>
+                        <li class="skill-item">My Purposefulness.</li>
+                    </ul>
                 </div>
-                <ul class="skill-list">
-                    <li class="skill-item">
-                        HTML
-                    </li>
-                    <li class="skill-item">CSS (Framework Bootstrap, Preprocessor SASS/SCSS, BEM Metodology)</li>
-                    <li class="skill-item">Git Control Version (remote service GitHub)</li>
-                    <li class="skill-item">Gulp</li>
-                    <li class="skill-item">Editors: VSCode</li>
-                    <li class="skill-item">Windows OS.</li>
-                    <li class="skill-item">Figma</li>
-                    <li class="skill-item">Photoshop</li>
-                    <li class="skill-item">My Purposefulness.</li>
-                </ul>
             </section>
+
             <section class="code-exmpls">
-                <div class="title" id="code">
-                    <h2>Code Examples</h2>
-                </div>
-                <div class="code-exmpls-wrapper">
-                    <code>
-                        <pre>
-                            function multiply(a, b){
-                               return a * b
-                              }
-                        </pre>
-                    </code>
+                <div class="container">
+                    <div class="title" id="code">
+                        <h2>Code Examples</h2>
+                    </div>
+                    <div class="code-exmpls-wrapper">
+                        <code>
+                            <pre>
+            function multiply(a, b){
+                return a * b
+            }
+                            </pre>
+                        </code>
+                    </div>
                 </div>
             </section>
+
             <section class="expirience">
-                <div class="title" id="expirience">
-                    <h2>My expirience</h2>
-                </div>
-                <div class="expirience-wrapper">
-                    <ul>
-                        <li>Work in construction organizations (2012-2022);</li>
-                        <li>Study project by courses Udemy.</li>
-                    </ul>
+                <div class="container">
+                    <div class="title" id="expirience">
+                        <h2>My expirience</h2>
+                    </div>
+                    <div class="expirience-wrapper">
+                        <ul>
+                            <li>Work in construction organizations (2012-2022);</li>
+                            <li>Study project by courses Udemy.</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
+
             <section class="language">
-                <div class="title" id="lang">
-                    <h2>My languages</h2>
-                </div>
-                <div class="language-wrapper">
-                    <ul class="language-list">
-                        <li class="language-item">Russian - native</li>
-                        <li class="language-item">Belarussian - native</li>
-                        <li class="language-item">English - A1 (Beginner) - A2 (Elementary)</li>
-                    </ul>
+                <div class="container">
+                    <div class="title" id="lang">
+                        <h2>My languages</h2>
+                    </div>
+                    <div class="language-wrapper">
+                        <ul class="language-list">
+                            <li class="language-item">Russian - native</li>
+                            <li class="language-item">Belarussian - native</li>
+                            <li class="language-item">English - A1 (Beginner) - A2 (Elementary)</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-        </div>
     </main>
 
     <footer class="footer" id="contacts">
-        <div class="year">2022</div>
-        <div class="link">
-            <a href="#">Axekash</a>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="year">2022</div>
+                <div class="link">
+                    <a href="#">Axekash</a>
+                </div>
+                <div class="logo-rsschool">
+                    <a href="https://rs.school/js-stage0/"><img src="assets/img/rs_school_js.svg" alt="logo-rsschool" class="img-logo"></a>
+                </div>
+            </div>
+
         </div>
-        <div class="logo-rsschool">
-            <a href="https://rs.school/js-stage0/"><img src="assets/img/rs_school_js.svg" alt="logo-rsschool"></a>
-        </div>
+
     </footer>
 
 
