@@ -8,6 +8,29 @@ body {
 html {
     scroll-behavior: smooth;
 }
+@media (max-width: 768px) {
+    .nav-list {
+        flex-wrap: wrap;
+    }
+    .nav-item a {
+        font-size: 16px;
+    }
+    .footer-contacts img{
+        height: 30px;    
+    }
+    
+    .img-logo {
+        height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-item a {
+        font-size: 15px;
+    }
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -60,39 +83,93 @@ html {
     text-align: center;
 }
 
-.title {
+.title h2{
     text-align: center;
+    margin: 0 auto;
 
-}
-
-.about-me {
-    padding-top: 10px;
-    background-color: rgba(9, 128, 158, 0.4);
 }
 .about-me-wrapper {
+    min-height: 200px;
+    background-color: rgba(9, 128, 158, 0.4);
+    padding: 20px;
+}
+.about-me {
     background-color: rgba(9, 128, 158, 0.4);
 }
-.main-descr {
-    padding: 0 10px;
+
+.main-descr p{
+    font-size: 18px;
+    line-height: 26px;
 }
+
 .main p{
     margin: 10px 0;
 }
 
+.my-skills {
+    background-color: rgba(60, 175, 122, 0.4);
+}
+.my-skills-wrapper {
+    padding: 20px 0px;
+    background-color: rgba(60, 175, 122, 0.4);
+}
+.skill-list {
+    font-size: 18px;
+    line-height: 26px;
+}
+.code-exmpls {
+    background-color: rgba(214, 236, 15, 0.4);
+}
+.code-exmpls-wrapper {
+    padding: 20px;
+    min-height: 50px;
+    background-color: rgba(214, 236, 15, 0.4);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.code-exmpls-description pre {
+    background-color: #999;
+}
 
+.expirience {
+    background-color: rgba(236, 177, 15, 0.4);
+}
+.expirience-wrapper {
+    background-color: rgba(236, 177, 15, 0.4);
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
 
+.language {
+    background-color: rgba(236, 78, 15, 0.4);
+}
+.language-wrapper {
+    background-color: rgba(236, 78, 15, 0.4);
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+.footer {
+    background-color: rgba(9, 9, 9, 0.4);
+}
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(9, 9, 9, 0.4);
+    padding: 20px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.footer-contacts img{
+    height: 50px;    
 }
 
 .img-logo {
     height: 50px;
 }
 
-.about-me {
 
-}
 
